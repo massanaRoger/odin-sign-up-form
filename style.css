@@ -104,6 +104,12 @@ body {
     padding: 0 10px;
 }
 
+.input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px grey;
+}
+
 .error {
     border: 1px solid red;
 }
