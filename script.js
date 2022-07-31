@@ -7,7 +7,6 @@ password.addEventListener('keyup', checkPasswordMatch);
 confirmPassword.addEventListener('keyup', checkPasswordMatch);
 
 function checkPasswordMatch() {
-    debugger
     if (password.value !== confirmPassword.value && prevCorrectPassword) {
         password.classList.add("error");
         confirmPassword.classList.add("error");
