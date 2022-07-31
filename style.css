@@ -11,3 +11,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+.left-container {
+    background-image: url('elijah-pilchard-D4WXuiwF5yk-unsplash.jpg');
+    flex: 1;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Norse bold', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.right-container {
+    flex: 2;
+}
