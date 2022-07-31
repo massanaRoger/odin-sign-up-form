@@ -54,7 +54,10 @@ body {
     background: #fafafa;
     padding: 50px 200px 50px 50px;
     font-weight: 500;
-    flex: 1;
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .text {
@@ -66,7 +69,6 @@ body {
     padding: 20px 50px 20px 50px;
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .form h4 {
@@ -80,14 +82,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    gap: 60px;
+    gap: 20px 60px;
 }
 
 .form-inputs div {
     display: flex;
     flex-direction: column;
     width: 30%;
-    margin-bottom: -20px;
 }
 
 .form-inputs label {
@@ -107,8 +108,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 50px;
+    justify-content: flex-start;
+    gap: 30px;
     background: #fafafa;
+    flex: 1.2;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
 .create-button {
@@ -118,6 +123,10 @@ body {
     background: #596D48;
     color: white;
     font-weight: 500;
+}
+
+.create-button:hover {
+    cursor: pointer;
 }
 
 .create-account span {
