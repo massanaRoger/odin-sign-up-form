@@ -97,11 +97,20 @@ body {
     font-weight: 500;
 }
 
-.form-inputs input {
+.input {
     border: 1px solid #E5E7EB;
     border-radius: 5px;
     height: 30px;
     padding: 0 10px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.no-match {
+    color: red;
+    font-size: 0.7rem;
 }
 
 .create-account {
@@ -134,3 +143,4 @@ body {
     font-weight: bold;
     flex: 1;
 }
+
