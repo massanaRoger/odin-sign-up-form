@@ -19,19 +19,34 @@ body {
 }
 
 .left-container {
-    background-image: url('elijah-pilchard-D4WXuiwF5yk-unsplash.jpg');
+    background-image: url('img/elijah-pilchard-D4WXuiwF5yk-unsplash.jpg');
     flex: 1;
     background-size: cover;
 }
 
-.logo {
-    font-family: 'Norse bold', sans-serif;
-    font-size: 2.5rem;
+.logo-container {
+    display: flex;
+    font-size: 3rem;
     color: #fff;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 25%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.4);
+}
+
+.logo {
+    max-height: 100%;
+}
+
+.logo-text {
+    font-family: 'Norse bold', sans-serif;
 }
 
 .right-container {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
